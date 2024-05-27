@@ -76,36 +76,7 @@
         </div>
 
         <footer class="row footer">
-            <hr style="opacity: 0.8;"/>
             <div class="row">
-                <div class="col-sm-3 footerLink">
-                    <a href="" class="navLinkFooter">Sklep</a>
-                </div>
-    
-                <div class="col-sm-3 footerLink">
-                    <a href="../../index.html#about" class="navLinkFooter">O autorze</a>
-                </div>
-    
-                <div class="col-sm-3 footerLink">
-                    <a href="../../index.html#contact" class="navLinkFooter">Kontakt</a>
-                </div>
-    
-                <div class="col-sm-3 footerLink">
-                    <a href="../../index.html#popularSection" class="navLinkFooter">Popularne</a>
-                </div>
-            </div>
-                
-            <div class="row">
-                <div class="col-sm-2"></div>
-
-                <div class="col-sm-4 footerLink">
-                    <a href="../html/policies.html" class="navLinkFooter">Regulamin sklepu</a>
-                </div>
-
-                <div class="col-sm-4 footerLink">
-                    <a href="quizCategories.php" class="navLinkFooter">Quizy</a>
-                </div>
-
                 <div class="col-sm-2">
                     <div class="notInterestingThings" style="hidden">
                         <div class="seriouslyThereIsNothingInterestingHere">
