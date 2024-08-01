@@ -1,0 +1,434 @@
+html, body{
+    background-color: #f6f6f6;
+}
+
+.space{
+    min-height: 100vh;
+}
+
+.answerBox{
+    margin: 1em 1em;
+    background-color: #ea4949;
+}
+
+.exerciseBox{
+    font-family: 'Mulish', 'sans-serif';
+    box-shadow: 0px 0px 10px #6e6e6e;
+    padding: 1em;
+    text-align: center;
+    border-radius: .5em;
+    scale: 0.95;
+}
+
+.topMenu{
+    padding: .5em 0em;
+    font-family: 'Playfair Display', 'serif';
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+}
+
+.btn-private{
+    font-family: 'Mulish', 'sans-serif';
+    padding: 0em .4em;
+    border-radius: .5em;
+    background-color: #1f6373;
+    font-weight: 500;
+    border: #164651 solid 1px;
+    margin: 0px 5px;
+    color: #f6f6f6;
+}
+
+.btn-private:hover{
+    background-color: #164651;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.btn-private-negative{
+    font-family: 'Mulish', 'sans-serif';
+    padding: 0em .4em;
+    border-radius: .5em;
+    background-color: #1f6373;
+    font-weight: 500;
+    border: #164651 solid 1px;
+    margin: 0px;
+    color: #f6f6f6;
+}
+
+.btn-private-negative:hover{
+    background-color: #511816;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.closer{
+    text-align: right;
+}
+
+.finalizationBox{
+    padding: 1em;
+    text-align: right;
+}
+
+.quizInput{
+    width: 85%;
+    padding: .3em;
+    border-radius: .3em;
+    border: #d6d6d6 solid 1px;
+    margin: auto;
+    margin-bottom: .5em;
+    color: #1d1c26;
+    font-weight: 600;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.quizInput:focus{
+    border: #1f6373 solid 1px;
+}
+
+.infos{
+    text-align: center;
+    position: relative;
+    min-height: max-content;
+}
+
+.questionFont{
+    margin: .5em 0em;
+    font-weight: 600;
+}
+
+::placeholder{
+    font-family: 'Mulish', 'sans-serif';
+    color: #777676;
+    font-weight: 700;
+}
+
+.addSpace{
+    padding: .5em 0em;
+}
+
+.finalSpace{
+    padding: .5em 0em;
+    text-align: right;
+}
+
+.sideMenu{
+    display: block;
+    background-color: #1f6373;
+    color: #f6f6f6;
+    position: sticky;
+    height: 100vh;
+    z-index: 99;
+    font-weight: 700;
+    top: 0;
+    padding: 2em 1em;
+    overflow: none;
+}
+
+.listMenu{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+ul li{
+    background-color: #164651;
+    border: 1px solid #1d1c26;
+    border-radius: 2em;
+    margin: .5em 0em;
+    padding: .5em 0em;
+    box-shadow: 0 0 5px #1d1c26;
+}
+
+ul li:hover{
+    background-color: #0e2b32;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.navLink{
+    font-family: 'Mulish', 'sans-serif';
+    font-weight: 600;
+    text-decoration: none;
+    color: #f6f6f6;
+    padding: .2em 1.3em;
+    width: 100%;
+    display: inline-block;
+}
+
+.navBarStyle{
+    border-bottom: #1d1c26 solid 2px;
+    padding: .3em 1em;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+    font-weight: 700;
+    background-color: #f6f6f6;
+}
+
+.logo{
+    text-align: center;
+    font-size: large;
+    margin: 1.5em 0em;
+}
+
+.menuIcon{
+    height: 20px;
+    margin-right: 10px;
+    transform: translateY(-10%);
+}
+
+.menuIconNotInShape{
+    width: 5%;
+    margin-right: 10px;
+    transform: translateY(-10%);
+    margin: 0 4%;
+}
+
+.writtenTitle{
+    font-family: 'Playfair Display', 'serif';
+    font-weight: 600;
+    font-size: 3em;
+    margin: .5em 0em;
+}
+
+.description-primary{
+    font-size: 1.5em;
+    max-width: 500px;
+    font-weight: 400;
+}
+
+.quizBox{
+    border: 1px solid #1d1c26;
+    border-radius: 2em;
+    background-color: rgba(31, 99, 115, 0.3);
+    padding: 1em 0em;
+    margin: 2em 0em;
+    scale: 90%;
+    backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 10px #6e6e6e;
+}
+
+.quizBox:hover{
+    transition: 0.5s;
+    background-color: rgba(22, 70, 81, 0.3);
+    box-shadow: 0px 0px 20px #6e6e6e;
+}
+
+.activePane{
+    cursor: pointer;
+    padding: 0em 0em 1em 0em;
+}
+
+table{
+    border: 1px solid #1d1c26;
+    border-collapse: collapse;
+}
+
+.tableCellName{
+    border-collapse: collapse;
+    border: 1px solid #1d1c26;
+    width: 40%;
+    text-align: left;
+    padding: .5em .5em;
+}
+
+.tableCellQuantity{
+    border-collapse: collapse;
+    border: 1px solid #1d1c26;
+    width: 15%;
+    text-align: center;
+    padding: .5em .5em;
+}
+
+.tableCellDelButton{
+    border-collapse: collapse;
+    border: 1px solid #1d1c26;
+    width: 5%;
+    text-align: center;
+    padding: .5em .5em;
+}
+
+.tableCellLp{
+    border-collapse: collapse;
+    border: 1px solid #1d1c26;
+    width: 5%;
+    text-align: center;
+    padding: .5em .5em;
+}
+
+.tableRowColored{
+    background-color: rgba(31, 99, 115, 0.3);
+}
+
+.sectionInformation{
+    position: relative;
+    text-align: center;
+    background: rgb(14,43,50);
+    background: linear-gradient(202deg, rgba(14,43,50,1) 30%, rgba(22,70,81,1) 100%);
+    color: #f6f6f6;
+    height: 100vh;
+}
+
+.formStyle{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    width: 100%;
+}
+
+.informationData{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+}
+
+.loginLink{
+    text-decoration: underline;
+    color: #1d1c26;
+}
+
+.loginSubmit{
+    padding: .5em 2em;
+    border-radius: .3em;
+    border: #d6d6d6 solid 1px;
+    margin: auto;
+    margin-bottom: .5em;
+    color: #1d1c26;
+    font-weight: 600;
+    outline: none;
+    box-shadow: 0px 0px 5px #1d1c26;
+}
+
+.loginSubmit:hover{
+    background-color: #164651;
+    box-shadow: 0px 0px 10px #1d1c26;
+    border: #1d1c26 solid 1px;
+    color: #f6f6f6;
+    transform: scale(1.05);
+    transition: 300ms;
+}
+
+.loginHolder{
+    width: fit-content;
+    max-width: 30%;
+    min-width: 20%;
+    padding: .5em 0em;
+    border-radius: .3em;
+    border: #d6d6d6 solid 1px;
+    margin: auto;
+    margin-bottom: 1em;
+    color: #1d1c26;
+    font-weight: 600;
+}
+
+.loginInputs{
+    width: 80%;
+    border: none;
+    border-left: #d6d6d6 1px solid;
+    padding: .5em 1em;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.sectionLogin{
+    height: 100%;
+}
+
+.expand{
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    margin-bottom: .5em;
+}
+
+label{
+    margin-right: 5px;
+}
+
+.menuIconInteractive{
+    height: 20px;
+    transform: translateY(-10%);
+    transition: 300ms;
+}
+
+.logoutButton{
+    margin: 2em 0em;
+}
+
+.phoneBrand{
+    display: none;
+}
+
+@media screen and (max-width: 575px) {
+    .sectionInformation{
+        display: none;
+    }
+
+    .space{
+        background: rgb(14,43,50);
+        background: linear-gradient(202deg, rgba(14,43,50,1) 30%, rgba(22,70,81,1) 100%);
+        color: #f6f6f6;
+    }
+
+    .loginLink{
+        text-decoration: underline;
+        color: #f6f6f6;
+    }
+
+    .loginSubmit:hover{
+        background-color: #1d1c26;
+        color: #f6f6f6;
+    }
+
+    .loginHolder{
+        width: fit-content;
+        max-width: 80%;
+        min-width: 70%;
+        padding: .5em .5em;
+        border-radius: .3em;
+        border: #d6d6d6 solid 1px;
+        margin: auto;
+        margin-bottom: 1em;
+        color: #1d1c26;
+        font-weight: 600;
+        outline: none;
+    }
+
+    .loginInputs{
+        color: #f6f6f6;
+        width: 80%;
+    }
+
+    .menuIconNotInShape{
+        width: 8%;
+        transform: translateY(-10%);
+        margin: 0 4%;
+    }
+    .sideMenu{
+        height: min-content;
+        position: relative;
+    }
+
+    .expand{
+        text-align: center;
+        display: block;
+    }
+
+    .listMenu{
+        display: none;
+    }
+
+    .infos{
+        min-height: 100vh;
+    }
+
+    .phoneBrand{
+        display: block;
+    }
+}
